@@ -65,7 +65,7 @@ https://documenter.getpostman.com/view/13621678/TVsyg6S4
     • Format pertukaran data tekstual yang ringan
     • Sintaksnya sederhana dan jelas dibandikan XML
     • Dapat digunakan pada berbagai bahasa pemograman. (Properti ini menjadikan JSON bahasa pertukaran data yang ideal.)
-  2. controller/userController.js
+  2. controller/userController.js , pada bagian login menggunakan bcyript compare untuk membandingkan karena password telah di hash saat masuk ke dalam database.
   3. biodata.json
   4. products.sql
   5. controller/productController.js
