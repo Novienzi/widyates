@@ -70,9 +70,10 @@ https://documenter.getpostman.com/view/13621678/TVsyg6S4
   4. products.sql
   5. controller/productController.js
   6. https://documenter.getpostman.com/view/13621678/TVsyg6S4
-    - then go to side bar 
-    - choose product and choose count product
-    - Or see this screenshoot below:
+   
+       - then go to side bar 
+       - choose product and choose count product
+  - Or see this screenshoot below:
     example request of count.png
     example response of count.png
 
