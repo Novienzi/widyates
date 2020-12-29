@@ -35,6 +35,7 @@ class UserController {
             }
             else {
                 const admin = getAdmin[0]
+                //untuk validasi password
                 const isPassMatch = await checkPassword(req.body.password, admin.dataValues.password)
                 if (!isPassMatch) {
                     res.status(400).send("Wrong Password")
